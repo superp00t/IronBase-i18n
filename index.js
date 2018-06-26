@@ -57,12 +57,12 @@ function lExists(s) {
 function lGet(o) {
   var full = localizationStrings[joinLocalID(o)];
   if (typeof full !== "undefined") {
-    return full;
+    return { key: joinLocalID(o), object: full };
   }
 
   var basic = localizationStrings[o.major];
   if (typeof basic !== "undefined") {
-    return basic;
+    return { key: o.major, object: basic };
   }
 
   /** 
@@ -75,12 +75,12 @@ function lGet(o) {
     var os = splitLocalID(ks[i]);
 
     if (os.major == o.major) {
-      return localizationStrings[ks[i]];
+      return { key: ks[i], object: localizationStrings[ks[i]] };
     }
   }
 
   // The supplied locale ID is completely unsupported, so default to American English.
-  return localizationStrings[defaultLang];
+  return { key: defaultLang, object: localizationStrings[defaultLang] };
 }
 
 // Acquire relevant localization object using supplided locale ID str. 
