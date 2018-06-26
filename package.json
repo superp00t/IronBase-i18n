@@ -2,5 +2,13 @@
   "name":        "ironbase-i18n",
   "version":     "0.1",
   "description": "Internationalization strings for various IronBase applications",
-  "author":      "The IronBase Developers"
+  "author":      "The IronBase Developers",
+  "license":     "MIT",
+
+  "main":        "index",
+
+  "repository": {
+    "type": "git",
+    "url":  "git+https://github.com/superp00t/IronBase-i18n.git"
+  }
 }
