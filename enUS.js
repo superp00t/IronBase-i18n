@@ -24,6 +24,8 @@ module.exports = {
   usernameInvalid: "That username is invalid.",
   ok: "OK",
   registerSuccess: "Your username has been registered!",
+  home: "Home",
+  signOut: "Sign out",
 
   packageSelect: "Select package",
   packageVersion: "Package version",
@@ -36,6 +38,9 @@ module.exports = {
   packageSearch: "Search packages",
   packageTags: "Package tags",
 
-  home: "Home",
-  signOut: "Sign out"
+  nodeGraph: "P2P Network Graph",
+  nodeGraphDescription: "View a list of active nodes in the P2P network",
+
+  cleave:            "Cleave",
+  cleaveDescription: "Create and update Cleave packages"
 };
