@@ -38,6 +38,8 @@ module.exports = {
   packageSearch: "Search packages",
   packageTags: "Package tags",
 
+  launch: "Launch",
+
   nodeGraph: "P2P Network Graph",
   nodeGraphDescription: "View a list of active nodes in the P2P network",
 
