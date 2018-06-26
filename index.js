@@ -3,7 +3,7 @@ const de   = require("./de");
 const esCO = require("./esCO");
 const el =   require("./el");
 
-const defaultLang = "en-US";
+const defaultLang = "en-us";
 
 const localizationStrings = {
   "en-us": {
