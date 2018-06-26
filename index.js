@@ -6,7 +6,7 @@ const el =   require("./el");
 const defaultLang = "en-US";
 
 const localizationStrings = {
-  "en-US": {
+  "en-us": {
     flagSrc: "img/flags/United-States.png",
     locale: enUS
   },
@@ -93,15 +93,15 @@ function AcquireLocalization(str) {
 // Detect and acquire localization object using variables present in the JS environment.
 function DetectLocalization() {
   if (typeof navigator == "undefined") {
-    return AcquireLocalization(defaultLang);
+    return AcquireLocalization(defaultLang.toLowerCase());
   }
 
   if (typeof document !== "undefined") {
     // this code is running in a web page
-    return AcquireLocalization(navigator.language);
+    return AcquireLocalization(navigator.language.toLowerCase());
   } else if (navigator.product == "ReactNative") {
     // react native support ? https://github.com/facebook/react-native/pull/14568
-    return AcquireLocalization(navigator.language);
+    return AcquireLocalization(navigator.language.toLowerCase());
   }
 
   return AcquireLocalization(defaultLang);
