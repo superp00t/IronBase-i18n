@@ -39,7 +39,7 @@ module.exports = {
   packageTags: "Package tags",
 
   launch: "Launch",
-
+  addConversation: "Join a conversation",
   nodeGraph: "P2P Network Graph",
   nodeGraphDescription: "View a list of active nodes in the P2P network",
 
