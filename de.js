@@ -1,6 +1,7 @@
 // German
 // Auto-translated, needs additional verification from native speaker
 module.exports = {
+  langDisplay: "Deutsch",
   serverSelect: "Server auswählen",
   username: "Nutzername",
   password: "Passwort",

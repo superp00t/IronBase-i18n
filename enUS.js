@@ -1,5 +1,6 @@
 // American English
 module.exports = {
+  langDisplay: "English (US)",
   serverSelect: "Select server",
   username: "Username",
   password: "Password",
