@@ -49,5 +49,7 @@ module.exports = {
   pairing:            "Device Pairing",
   pairingDescription: "Register a device with the Mobile app",
   pairingHelp:       "Open the IronBase Mobile app and press Start. Then, scan this QR code to log in!",
-  pairingHelpMobile: "Open IronBase on your PC. Go to Home > Device Pairing. Point your device at the QR code to log in!"
+  pairingHelpMobile: "Open IronBase on your PC. Go to Home > Device Pairing. Point your device at the QR code to log in!",
+
+  settings:          "Settings"
 };

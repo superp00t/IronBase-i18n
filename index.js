@@ -75,7 +75,7 @@ function lGet(o) {
     var os = splitLocalID(ks[i]);
 
     if (os.major == o.major) {
-      return { key: ks[i], object: localizationStrings[ks[i]] };
+      return { key:  ks[i], object: localizationStrings[ks[i]] };
     }
   }
 
