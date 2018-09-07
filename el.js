@@ -1,6 +1,7 @@
 // Greek
 // courtesy of d3vzer0
 module.exports = {
+  settings: "Ρυθμίσεις",
   langDisplay: "Ελληνικά",
   serverSelect: "Επιλογή διακομιστή",
   username: "Όνομα χρήστη",

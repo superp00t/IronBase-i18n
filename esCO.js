@@ -1,6 +1,7 @@
 // Colombian Spanish
 // Courtesy of anguila
 module.exports = {
+  settings: "Configuraciones",
   langDisplay: "Español",
   serverSelect: "Seleccionar servidor",
   username: "Usuario",
