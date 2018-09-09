@@ -45,13 +45,13 @@ module.exports = {
   nodeGraph: "P2P Network Graph",
   nodeGraphDescription: "View a list of active nodes in the P2P network",
 
-  cleave:            "Cleave",
+  cleave: "Cleave",
   cleaveDescription: "Create and update Cleave packages",
 
-  pairing:            "Device Pairing",
+  pairing: "Device Pairing",
   pairingDescription: "Register a device with the Mobile app",
-  pairingHelp:       "Open the IronBase Mobile app and press Start. Then, scan this QR code to log in!",
+  pairingHelp: "Open the IronBase Mobile app and press Start. Then, scan this QR code to log in!",
   pairingHelpMobile: "Open IronBase on your PC. Go to Home -> Device Pairing. Point your device at the QR code to log in!",
 
-  settings:          "Settings"
+  settings: "Settings"
 };
